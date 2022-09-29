@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando</title>
+    <link rel="stylesheet" href="newestilo.css">
+</head>
+<body>
+    <header>Aleatoriedade </header>
+    <section>
+       <div>
+        <input type="radio" name="radios" id="p1" checked>
+        <label for="p1">01</label>
+        <input type="radio" name="radios" id="p2">
+        <label for="p2">02</label>
+        <input type="radio" name="radios" id="p3">
+        <label for="p3">03</label>
+        <p><input type="radio" name="radios" id="p4">
+        <label for="p4">04</label>
+        <input type="radio" name="radios" id="p5">
+        <label for="p5">05</label>
+        <input type="radio" name="radios" id="p6">
+        <label for="p6">06</label></p>
+        
+        <strong>Obs: Verifique se o número marcado é o correto!</strong>
+        <p><input type="button" value="Verificar" onclick="verificar()"></p>
+
+       </div>
+       <div id="res">
+        <img src="neymarcareca.png" alt="">
+     
+       </div> 
+    </section>
+    <p></p>
+    <header>Tabuada</header>
+    <section>
+        <div>
+            <input type="number" name="num" id="n1">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()">
+        </div>
+        <div id="sel">
+            <p><select name="tab" id="tab" size="10">
+                <option>Digite um número acima!</option>
+            </select></p>
+        
+            
+        </div>
+        
+
+        
+    </section>
+    <footer>&copy;LucasDantas<br/>
+        <div id="messi"><p><img src="messicareca.png" alt=""></div></p>
+    </footer>
+    <script src="newscript.js"></script>
+</body>
+</html>

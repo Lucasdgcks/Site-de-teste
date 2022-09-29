@@ -1,0 +1,54 @@
+body{
+    background: rgba(67, 220, 17, 0.877);
+    font: normal 12pt Arial;
+    text-align: center;
+    
+}
+header{
+    font: normal 20pt italic;
+    margin: auto;
+    text-align: center;
+    text-shadow: 2px 2px 5px;
+}    
+section{
+    background: white;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 4px 4px 7px;
+    border-radius: 35px;
+    height: 350px;
+    width: 500px;
+
+}
+footer{
+    text-align: center;
+    font: normal 12pt inherit;
+}
+img{
+    border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+div#res{
+    text-align: center;
+}
+div#sel{
+    text-align: left;
+}
+.bola__pulsante{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #8b80f9;
+    animation: pulsante 1.5 infinite;
+}
+@keyframes pulsante{
+    0%{
+        box-shadow: #8b80f9 0 0 0 0;
+
+    }
+    100%{
+        box-shadow: #8b80f9 0 0 0 16px;
+    }
+}
